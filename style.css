@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 .navbar {
   display: flex;
@@ -78,17 +79,73 @@ ol-2 h1 {
 .categories {
   margin: 70px 0;
 }
-.col-3 {
+
+.home-btn {
+  transition: all 0.5s;
+}
+.home-btn:hover {
+  transform: translateY(-3px);
+}
+#heading {
+  text-align: center;
+  padding-top: 25px;
+}
+#product-body {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  margin-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* COL 3 0 */
+
+.col-3-0 {
   flex-basis: 30%;
   min-width: 250px;
   margin-bottom: 30px;
 }
-.col-3 img{
+.col-3-0 img {
   width: 100%;
+  transition: all ease-in-out 0.5s;
 }
-.small-container{
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+.col-3-0 img:hover {
+  transform: scale(1.05);
+}
+
+/* COL 3 1 */
+
+.col-3-1 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3-1 img {
+  width: 100%;
+  transition: all ease-in-out 0.5s;
+}
+.col-3-1 img:hover {
+  transform: scale(1.05);
+}
+
+/* COL 3 2 */
+
+.col-3-2 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3-2 img {
+  width: 100%;
+  transition: all ease-in-out 0.5s;
+}
+.col-3-2 img:hover {
+  transform: scale(1.05);
+}
+.row p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
 }
