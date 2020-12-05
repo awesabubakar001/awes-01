@@ -7,6 +7,8 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
+  background: radial-gradient(#fff, #ffd6d6);
+  background-repeat: no-repeat;
 }
 .navbar {
   display: flex;
@@ -85,6 +87,7 @@ ol-2 h1 {
 }
 .home-btn:hover {
   transform: translateY(-3px);
+  transform: scale(-1);
 }
 #heading {
   text-align: center;
