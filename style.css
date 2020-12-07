@@ -88,7 +88,6 @@ ol-2 h1 {
 }
 .home-btn:hover {
   transform: translateY(-3px);
-  transform: scale(-1);
 }
 #heading {
   text-align: center;
